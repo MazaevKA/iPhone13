@@ -159,6 +159,7 @@ iframe {
 
 .offer {
   padding: 5rem 0;
+  margin-bottom: 4rem;
 }
 
 .offer__wrap {
@@ -206,6 +207,53 @@ iframe {
   border-radius: 3rem;
   color: #fff;
   letter-spacing: .03rem;
+}
+
+/* Features */
+
+.features {
+  padding: 5rem 0;
+}
+
+.features__title {
+  font-weight: 500;
+  font-size: 3.4rem;
+  line-height: 4.1rem;
+  text-align: center;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6rem 3rem;
+}
+
+.card {
+  width: 41rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card__picture {
+  box-shadow: 0 1rem 4rem 1rem rgba(0, 0, 0, 0.06);
+  border-radius: 3.4rem;
+  margin-bottom: 3.5rem;
+}
+
+.card__title {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.card__description {
+  font-size: 2.2rem;
+  line-height: 2.6rem;
+  width: 30rem;
 }
 
 /* (max-width 424px) */
@@ -279,10 +327,61 @@ iframe {
     overflow: hidden;
   }
 
-    /* Offer */
-    .offer__wrap {
-      height: 59rem;
-    }
+  /* Offer */
+  .offer__wrap {
+    height: 59rem;
+  }
+
+  .offer__title {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    line-height: 4.6rem;
+    letter-spacing: .2rem;
+  }
+  
+  .offer__subtitle {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    line-height: 4rem;
+  }
+  
+  .offer__price {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    line-height: 4rem;
+  }
+  
+  .btn {
+    cursor: pointer;
+    padding: 2rem 4rem;
+    background-color: #0071E3;
+    border-radius: 6rem;
+    color: #fff;
+    letter-spacing: .06rem;
+    font-size: 3rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card__picture {
+    box-shadow: 0 2rem 8rem 2rem rgba(0, 0, 0, 0.06);
+    border-radius: 6.8rem;
+    margin-bottom: 7rem;
+  }
+
+  .card__title {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    margin-bottom: 4rem;
+  }
+  
+  .card__description {
+    font-size: 4.4rem;
+    line-height: 5.2rem;
+    width: 60rem;
+  }
 }
 
 /* (min-width 425px) and (max-width 768px) */
@@ -308,6 +407,10 @@ iframe {
   /* Offer */
   .offer__wrap {
     height: 59rem;
+  }
+
+  .card {
+    width: calc(50% - 3rem);
   }
 
 }
