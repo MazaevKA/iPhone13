@@ -455,6 +455,26 @@ iframe {
     line-height: 5.2rem;
     width: 60rem;
   }
+
+  .form__item {
+    width: 100%;
+  }
+
+  .form__label {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .form__input {
+    height: 12rem;
+    box-shadow: 0 1.2rem 4rem rgba(0, 0, 0, 0.1);
+    border-radius: 4rem;
+    border: none;
+    margin-bottom: 5rem;
+    padding: 0 3rem;
+    font-size: 3rem;
+  }
 }
 
 /* (min-width 425px) and (max-width 768px) */
